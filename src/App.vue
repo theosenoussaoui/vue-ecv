@@ -1,14 +1,17 @@
 <template>
   <TailwindExample msg="voici avec tailwind" />
+  <StyledExample msg="voici avec styled-components" />
 </template>
 
 <script>
 import TailwindExample from "./components/TailwindExample.vue";
+import StyledExample from "./components/StyledExample/StyledExample.vue";
 
 export default {
   name: "App",
   components: {
     TailwindExample,
+    StyledExample,
   },
 };
 </script>
